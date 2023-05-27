@@ -4,20 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> William Seth Johnson Portfolio Website</title>
+    <title>William Seth Johnson Portfolio Website</title>
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
-
         <i class='bx bx-menu' id="menu-icon"></i>
-
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
@@ -65,7 +62,6 @@
     </section>
 
 <!-- Services Section-->
-
      <section class="services" id="services">
         <h2 class="heading">My <span>Services</span></h2>
 
@@ -94,7 +90,6 @@
      </section>
 
 <!-- Portfolio Section-->
-
 <section class="portfolio" id="portfolio">
     <h2 class="heading">Latest <span>Project</span></h2>
 
@@ -158,53 +153,46 @@
                 <div class="portfolio-layer">
                           <h4>Live Events</h4>
                           <p>live event stuff</p>
-                          <a href="#"><i class='bx bx-calendar-check' ></i></i></a>
+                          <a href="#"><i class='bx bx-tv' ></i></a>
                 </div>
             </div>
+
         </div>
 </section>
 
 <!-- Contact Section-->
 <section class="contact" id="contact">
-    <h2 class="heading">Contact <span>Me!</span></h2>
+    <h2 class="heading">Contact <span>Me</span></h2>
 
-    <form action="#">
-        <div class="input-box">
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Email Address">
+    <div class="contact-container">
+        <div class="contact-info">
+            <h3>Location</h3>
+            <p>123, ABC Street, City, State, Country</p>
         </div>
-        <div class="input-box">
-            <input type="number" placeholder="Mobile Number">
-            <input type="text" placeholder="Subject">
+
+        <div class="contact-info">
+            <h3>Email</h3>
+            <p>yourmail@example.com</p>
         </div>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-        <input type="submit" value="Send Message" class="btn">
+
+        <div class="contact-info">
+            <h3>Phone</h3>
+            <p>+1234567890</p>
+        </div>
+    </div>
+
+    <form class="contact-form" action="mailto:youremail@example.com" method="post" enctype="text/plain">
+        <input type="text" placeholder="Name" name="name" required>
+        <input type="email" placeholder="Email" name="email" required>
+        <textarea placeholder="Message" name="message" required></textarea>
+        <input type="submit" value="Send" class="btn">
     </form>
 </section>
-   
-<!-- Footer Section-->
-<footer class="footer">
-    <div class="Footer">
-        <a href="#"><i class='bx bxl-facebook'></i></a>
-        <a href="#"><i class='bx bxl-youtube' ></i></a>
-        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-        <a href="#"><i class='bx bxl-linkedin' ></i></a>
-    </div>
 
-    <div class="footer-iconTop">
-        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
-    </div>
+<!-- Footer -->
+<footer class="footer">
+    <p>Designed and Developed by William Johnson &copy; 2023</p>
 </footer>
 
-
-<!-- scroll reveal Section-->
-<script src="https://unpkg.com/scrollreveal"></script>
-
-<!-- typed js -->
-<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-
-<!-- Custom JS Section-->
-    <script src="script.js"></script>
 </body>
-
 </html>
