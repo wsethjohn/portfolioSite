@@ -28,11 +28,4 @@ if( isset($_POST['submit'])) {
 
     //PHP mailer function
    $result = mail($mailTo, $subject, $htmlContent, $headers);
-
-   //error checking
-   if($result){
-    $success = "The message was sent successfully!";
-   } else {
-    $failed = "Error: Message was not sent, try again later";
-   }
 }

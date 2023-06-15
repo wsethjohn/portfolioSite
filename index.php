@@ -17,6 +17,7 @@
     <?php
     include ("mail.php");
     ?>
+    
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
 
