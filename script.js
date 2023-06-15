@@ -74,6 +74,7 @@ videoPopupLinks.forEach((link) => {
   });
 });
 
+
 function openVideoModal(videoId) {
   const youtubeUrl = `https://www.youtube.com/embed/${videoId}?rel=0&autoplay=1`;
   const iframe = document.createElement('iframe');
@@ -103,3 +104,132 @@ window.addEventListener('click', (event) => {
     closeVideoModal();
   }
 });
+
+
+/*===================== Open web dev pop up in portfolio =====================*/
+
+// JavaScript for the web dev pop-up
+// Get necessary elements
+const popup = document.getElementById('popup');
+const openPopupIcons = document.querySelectorAll('.bx-code-alt');
+const closePopupIcon = document.getElementById('close-popup');
+
+// Function to open the pop-up
+function openPopup() {
+  popup.classList.add('active');
+}
+
+// Function to close the pop-up
+function closePopup() {
+  popup.classList.remove('active');
+}
+
+// Event listeners
+openPopupIcons.forEach(icon => {
+  icon.addEventListener('click', openPopup);
+});
+
+closePopupIcon.addEventListener('click', closePopup);
+
+
+/*===================== Open digital marketing pop up in portfolio =====================*/
+
+// JavaScript for the digital marketing pop-up
+
+const dmPopup = document.getElementById('marketing-popup');
+const openDmPopupIcons = document.querySelectorAll('.bx-line-chart');
+const closeDmPopupIcon = document.getElementById('marketing-close');
+
+// Function to open the pop-up
+function openDmPopup() {
+  dmPopup.classList.add('active');
+}
+
+// Function to close the pop-up
+function closeDmPopup() {
+  dmPopup.classList.remove('active');
+}
+
+// Event listeners
+openDmPopupIcons.forEach(icon => {
+  icon.addEventListener('click', openDmPopup);
+});
+
+closeDmPopupIcon.addEventListener('click', closeDmPopup);
+
+
+/*===================== Open graphic design pop up in portfolio =====================*/
+
+// JavaScript for the graphic design pop-up
+
+const designPopup = document.getElementById('design-popup');
+const openDesignPopupIcons = document.querySelectorAll('.bxs-brush');
+const closeDesignPopupIcon = document.getElementById('design-close');
+
+// Function to open the pop-up
+function openDesignPopup() {
+  designPopup.classList.add('active');
+}
+
+// Function to close the pop-up
+function closeDesignPopup() {
+  designPopup.classList.remove('active');
+}
+
+// Event listeners
+openDesignPopupIcons.forEach(icon => {
+  icon.addEventListener('click', openDesignPopup);
+});
+
+closeDesignPopupIcon.addEventListener('click', closeDesignPopup);
+
+
+/*===================== Open Lead Generation pop up in portfolio =====================*/
+
+// JavaScript for the Lead Generation pop-up
+
+const leadPopup = document.getElementById('lead-popup');
+const openLeadPopupIcons = document.querySelectorAll('.bxs-group');
+const closeLeadPopupIcon = document.getElementById('lead-close');
+
+// Function to open the pop-up
+function openLeadPopup() {
+    leadPopup.classList.add('active');
+}
+
+// Function to close the pop-up
+function closeLeadPopup() {
+    leadPopup.classList.remove('active');
+}
+
+// Event listeners
+openLeadPopupIcons.forEach(icon => {
+  icon.addEventListener('click', openLeadPopup);
+});
+
+closeLeadPopupIcon.addEventListener('click', closeLeadPopup);
+
+/*===================== Open Live Events pop up in portfolio =====================*/
+
+// JavaScript for the Live Events pop-up
+
+const eventsPopup = document.getElementById('events-popup');
+const openEventsPopupIcons = document.querySelectorAll('.bx-calendar-check');
+const closeEventsPopupIcon = document.getElementById('events-close');
+
+// Function to open the pop-up
+function openEventsPopup() {
+    eventsPopup.classList.add('active');
+}
+
+// Function to close the pop-up
+function closeEventsPopup() {
+    eventsPopup.classList.remove('active');
+}
+
+// Event listeners
+openEventsPopupIcons.forEach(icon => {
+  icon.addEventListener('click', openEventsPopup);
+});
+
+closeEventsPopupIcon.addEventListener('click', closeEventsPopup);
