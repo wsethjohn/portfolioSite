@@ -12,7 +12,7 @@
 
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+    <body>
     <!-- connect with php file -->
     <?php
     include ("mail.php");
