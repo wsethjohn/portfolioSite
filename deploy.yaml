@@ -17,4 +17,4 @@ jobs:
         bucket: william-johnson-site
         key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         secret: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        region: us-east-2  # Update this if your bucket is in a different region 
+        region: us-east-2  # Update this if your bucket is in a different region  
